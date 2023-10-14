@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <div className="py-3 px-2 rounded-lg relative shadow-md">
+    <div className="py-3 px-2 rounded-lg relative shadow-md hidden sm:block">
       <div className="flex flex-row items-center gap-x-3 ">
         <img className="w-4 h-4" src="/search.png" />
         <input

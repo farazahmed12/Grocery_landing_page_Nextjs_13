@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <div className="min-h-screen flex flex-col px-14">
+    <div className="min-h-screen flex flex-col px-6 sm:px-14">
       {/* Navbar */}
       <div className="flex flex-row items-center justify-between mt-6">
         <img src={"/logo.png"} className="w-20 h-7" alt="logo image" />{" "}
@@ -26,7 +26,7 @@ const Header = () => {
         <SearchBar />
       </div>
 
-      <div className="w-full h-screen mt-10 flex flex-row justify-between items-center">
+      <div className="w-full h-screen  flex flex-col sm:flex-row  justify-between items-center">
         {/* Seaction 1 */}
         <div className="w-full flex flex-col items-start">
           <div className="bg-[#FDECEC] flex flex-row justify-between items-center rounded-2xl px-4 py-1">
@@ -36,7 +36,7 @@ const Header = () => {
             <img className="w-6 h-6 object-cover mt-2" src="/strawberry.png" />
           </div>
 
-          <h2 className="text-7xl font-poppins  mt-10 leading-[5rem] font-extrabold text-[#2E2E2E]">
+          <h2 className="text-5xl sm:text-7xl font-poppins  mt-10 leading-[3rem] sm:leading-[5rem] font-extrabold text-[#2E2E2E]">
             Groceries delivered in as little as{" "}
             <span className="font-normal text-[#F54748]"> 2 hours</span>
           </h2>
@@ -53,9 +53,9 @@ const Header = () => {
           </div>
         </div>
         {/* Seaction 2 */}
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-full flex flex-col items-center relative justify-center">
           {/* Card 1 */}
-          <div className="absolute">
+          <div className="absolute left-[-18%] sm:left-[-6%] top-2 sm:top-44">
             <div className="w-60 h-52  relative ">
               <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2  flex flex-col items-center justify-start">
                 <h3 className=" border-b-2 border-[#FFA610] font-semibold text-sm text-[#2E2E2E]">
@@ -84,12 +84,17 @@ const Header = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="absolute right-0 ">
-            <div className="flex flex-row justify-between items-center gap-x-2">
+          <div className="absolute right-[-5%] sm:right-0 top-16 sm:top-20">
+            <div className="relative flex flex-row px-4 py-2 shadow-md rounded-md justify-between items-center gap-x-2">
               <img
                 className="w-7 h-7 "
                 src="/alarmClock.png"
                 alt="alarm clock image"
+              />
+              <img
+                className="w-32 h-32 sm:w-28 sm:h-36 absolute  top-[100%]"
+                src="/arrow.png"
+                alt="Arrow Image for Pointing"
               />
               <div className="flex flex-col items-start">
                 <h3 className="text-sm font-semibold font-poppins text-[#676767]">
@@ -99,6 +104,11 @@ const Header = () => {
               </div>
             </div>
           </div>
+          <img
+            className="w-10/12 sm:h-5/6 sm:w-8/12"
+            src="/HeaderMan.png"
+            alt="Header man Image "
+          />
         </div>
       </div>
     </div>
