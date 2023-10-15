@@ -47,7 +47,7 @@ const Header = () => {
           </p>
 
           <div className="mt-5 rounded-md bg-[#F86061] px-4 py-2 ">
-            <p className="font-poppins text-white font-normal capitalize">
+            <p className="font-poppins text-white font-semibold cursor-pointer capitalize">
               Order now
             </p>
           </div>
