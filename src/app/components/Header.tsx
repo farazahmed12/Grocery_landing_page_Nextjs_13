@@ -26,7 +26,7 @@ const Header = () => {
         <SearchBar />
       </div>
 
-      <div className="w-full h-screen  flex flex-col sm:flex-row  justify-between items-center">
+      <div className="w-full h-screen  flex flex-col sm:flex-row mt-10 sm:mt-0 justify-between items-center">
         {/* Seaction 1 */}
         <div className="w-full flex flex-col items-start">
           <div className="bg-[#FDECEC] flex flex-row justify-between items-center rounded-2xl px-4 py-1">
@@ -36,7 +36,7 @@ const Header = () => {
             <img className="w-6 h-6 object-cover mt-2" src="/strawberry.png" />
           </div>
 
-          <h2 className="text-5xl sm:text-7xl font-poppins  mt-10 leading-[3rem] sm:leading-[5rem] font-extrabold text-[#2E2E2E]">
+          <h2 className="text-5xl sm:text-7xl font-poppins mt-5 sm:mt-10 leading-[3rem] sm:leading-[5rem] font-extrabold text-[#2E2E2E]">
             Groceries delivered in as little as{" "}
             <span className="font-normal text-[#F54748]"> 2 hours</span>
           </h2>
