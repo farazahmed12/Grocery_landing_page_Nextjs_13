@@ -46,8 +46,8 @@ const Header = () => {
             getting out in this pandemic.
           </p>
 
-          <div className="mt-5 rounded-md bg-[#F86061] px-4 py-2 ">
-            <p className="font-poppins text-white font-semibold cursor-pointer capitalize">
+          <div className="mt-5 hover:scale-110 duration-150 cursor-pointer rounded-md bg-[#F86061] px-4 py-2 ">
+            <p className="font-poppins text-white font-semibold  capitalize">
               Order now
             </p>
           </div>

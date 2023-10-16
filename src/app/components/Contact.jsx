@@ -2,12 +2,15 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="h-screen bg-[#FDECEC] flex flex-row justify-center items-center px-6 sm:px-14">
-      <div className="w-6/12 flex justify-center">
-        <img className="w-[20vw] h-[55vh]" src={"/mobile.png"} />
+    <div className="h-screen bg-[#FDECEC] flex flex-col gap-y-4 sm:flex-row justify-center items-center px-6 sm:px-14">
+      <div className="w-full sm:w-6/12 flex justify-center">
+        <img
+          className="w-[40vw] h-[40vh] sm:w-[20vw] sm:h-[55vh] md:w-[30vw] lg:w-[20vw]"
+          src={"/mobile.png"}
+        />
       </div>
 
-      <div className="flex w-6/12 flex-col px-6 gap-y-4 justify-center items-start">
+      <div className="flex w-full sm:w-6/12 flex-col px-6 gap-y-4 justify-center items-start">
         <p className="text-lg font-poppins text-[#03A66B]  font-semibold">
           Download Our App
         </p>

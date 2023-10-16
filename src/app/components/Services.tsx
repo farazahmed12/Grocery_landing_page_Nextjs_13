@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="px-6 sm:px-14  flex flex-col gap-y-6 sm:gap-y-40 justify-center items-center h-screen bg-[#FDECEC]">
+    <div className="px-6 sm:px-14  flex flex-col gap-y-6 sm:gap-y-20 justify-center items-center h-screen bg-[#FDECEC]">
       <div className="flex flex-col items-center">
         <h2 className="text-[#F54748] text-sm font-semibold font-poppins">
           What we Serve
@@ -13,7 +13,7 @@ const Services = () => {
         </h2>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-x-20 justify-center items-center">
+      <div className="flex flex-col lg:flex-row gap-y-8 sm:gap-x-20 justify-center items-center">
         {/* Card 1 */}
         <div className="bg-white w-[16rem] rounded-md flex flex-col justify-center items-center py-8 px-6">
           <img
